@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">PoS</string>
+
+    <!-- Login Activity -->
+    <string name="login_title_textView">Stamford POS Application</string>
+    <string name="UsernameText">Username:</string>
+    <string name="PasswordText">Password:</string>
+    <string name="rememberMeCheckBox">Remember me</string>
+    <string name="login_btn">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="preference_file_key">com.stamford.pos.secret_pref</string>
+    <string name="credential_stored_key">credential_stored_key</string>
+    <string name="username_key">username_key</string>
+    <string name="password_key">password_key</string>
+    <string name="keyBytes_key">pass_key</string>
+    <string name="salt_key">salt_key</string>
+    <string name="iv_key">iv_key</string>
+
+    <!-- Setting Activity -->
+    <string name="setting_title">Stamford POS Setting</string>
+    <string name="setup_branch_btn">SETUP BRANCH</string>
+    <string name="update_branch_btn">UPDATE BRANCH</string>
+    <string name="change_ui_setting_btn">CHANGE UI SETTING</string>
+    <string name="search_contact_btn">SEARCH CONTACT</string>
+    <string name="upload_daily_report_button">UPLOAD DAILY REPORT</string>
+    <string name="order_manager_btn">ORDER MANAGER</string>
+    <string name="submit_orders_to_remote_server_btn">SUBMIT ORDERS TO REMOTE SERVER</string>
+    <string name="retrieve_orders_from_remote_server_btn">RETRIEVE ORDERS FROM REMOTE SERVER</string>
+    <string name="upload_image_to_remote_server_btn">UPLOAD IMAGE TO REMOTE SERVER</string>
+
+    <!-- Command Center Activity -->
+    <string name="commandcenter_title">Command Center</string>
+    <string name="new_order_btn">New Order</string>
+    <string name="add_product_btn">Add Product</string>
+    <string name="play_music_in_bg_btn">Play music in background</string>
+    <string name="stop_music_in_bg_btn">Stop music in background</string>
+
+    <!-- Product Categories Activity -->
+    <string name="product_cat_title">Product Categories</string>
+    <string name="macaronBtn">Macarons</string>
+    <string name="drinkBtn">Drinks</string>
+    <string name="dessertBtn">Desserts</string>
+    <string name="thaidishBtn">Thai Dishes</string>
+    <string name="icecreamBtn">Ice-creams</string>
+    <string name="fruitBtn">Fruits</string>
+
+    <!-- Edit Orderline Activity -->
+    <string name="edit_orderline_title_textView">Edit Order</string>
+    <string name="edit_orderline_id_textView">Order ID: </string>
+    <string name="edit_orderline_product_id_textView">Product ID: </string>
+    <string name="edit_orderline_price_textView">Price: </string>
+    <string name="edit_orderline_quantity_textView">Quantity: </string>
+    <string name="edit_orderline_update_btn">Update</string>
+    <string name="edit_orderline_cancel_btn">Cancel</string>
+
+
+    <!-- Order Activity -->
+    <string name="total_amount_str">%d</string>
+
+    <!-- Login Activity -->
+    <string name="play_str">PLAY</string>
+    <string name="stop_str">STOP</string>
+
+</resources>

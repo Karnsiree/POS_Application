@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/product_cat_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/macaronBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/macaronBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickMacaronsBtn"/>
+
+    <Button
+        android:id="@+id/drinkBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="448dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/drinkBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickDrinksBtn"/>
+
+    <Button
+        android:id="@+id/dessertBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="860dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/dessertBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickDessertsBtn"/>
+
+    <Button
+        android:id="@+id/thaidishBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="448dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/thaidishBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickThaiDishesBtn"/>
+
+    <Button
+        android:id="@+id/icecreamBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/icecreamBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickIceCreamsBtn"/>
+
+    <Button
+        android:id="@+id/fruitBtn"
+        android:layout_width="378dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="856dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/fruitBtn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="onClickFruitsBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

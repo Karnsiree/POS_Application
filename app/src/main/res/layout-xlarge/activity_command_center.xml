@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/commandCenterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/commandcenter_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/play_music_in_bg_btn"
+        android:layout_width="462dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="408dp"
+        android:layout_marginTop="404dp"
+        android:clickable="true"
+        android:onClick="onclick_play_music_in_bg_btn"
+        android:text="@string/play_music_in_bg_btn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/new_order_btn"
+        android:layout_width="462dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="408dp"
+        android:layout_marginTop="192dp"
+        android:clickable="true"
+        android:onClick="onclick_new_order_btn"
+        android:text="@string/new_order_btn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add_product_btn"
+        android:layout_width="462dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="408dp"
+        android:layout_marginTop="296dp"
+        android:clickable="true"
+        android:onClick="onclick_add_product_btn"
+        android:text="@string/add_product_btn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stop_music_in_bg_btn"
+        android:layout_width="462dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="408dp"
+        android:layout_marginTop="512dp"
+        android:clickable="true"
+        android:onClick="onclick_stop_music_in_bg_btn"
+        android:text="@string/stop_music_in_bg_btn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

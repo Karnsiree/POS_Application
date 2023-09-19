@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/QuantityEditText"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="210dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="648dp"
+            android:layout_marginTop="376dp"
+            android:clickable="true"
+            android:ems="10"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/edit_orderline_quantity_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="420dp"
+            android:layout_marginTop="376dp"
+            android:text="@string/edit_orderline_quantity_textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ProductIDTextView"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="210dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="648dp"
+            android:layout_marginTop="256dp"
+            android:ems="10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/edit_orderline_product_id_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="420dp"
+            android:layout_marginTop="256dp"
+            android:text="@string/edit_orderline_product_id_textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/edit_orderline_title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="516dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/edit_orderline_title_textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/orderIDTextView"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="210dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="648dp"
+            android:layout_marginTop="196dp"
+            android:ems="10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/edit_orderline_id_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="420dp"
+            android:layout_marginTop="196dp"
+            android:text="@string/edit_orderline_id_textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/edit_orderline_update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="456dp"
+            android:layout_marginTop="468dp"
+            android:clickable="true"
+            android:text="@string/edit_orderline_update_btn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/edit_orderline_cancel_btn"
+            android:layout_width="172dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="648dp"
+            android:layout_marginTop="468dp"
+            android:clickable="true"
+            android:text="@string/edit_orderline_cancel_btn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/PriceEditText"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="210dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="648dp"
+            android:layout_marginTop="316dp"
+            android:clickable="true"
+            android:ems="10"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/edit_orderline_price_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="420dp"
+            android:layout_marginTop="316dp"
+            android:text="@string/edit_orderline_price_textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
